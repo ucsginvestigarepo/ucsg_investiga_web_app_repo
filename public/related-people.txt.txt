@@ -1,0 +1,33 @@
+/*
+	ucsg-investiga-web-app | web app para el concurso ucsg investiga, que incentiva
+	la investigación científica. - http://domain.com
+*/
+
+/* TEAM */
+Creator: UCSG
+Contact: Universidad Catolica de Santiago de Guayaquil (UCSG) 
+ - Facultad de Ingenieria, Carrera Ingenieria en Sistemas Computacionales 
+ - contactcenter [at] cu.ucsg.edu.ec
+ - contactcenter [at] cu.ucsg.edu.ec
+Wep Developer: YugiMasterX
+Web Designer: YugiMasterX
+From: Guayaquil City, Ecuador
+
+/* IN MEMORIAL */
+In memory of all the years I spent in the UCSG
+
+/* THANKS */
+GOD,
+UCSG TEACHERS,
+UCSG https://www.ucsg.edu.ec,
+MYSELF,
+FAMILY,
+FRIENDS
+
+/* SITE */
+Last Update: 2019/08/09
+Language: Español
+Standars: HTML5, CSS3, JAVASCRIPT, JQUERY, BOOTSTRAP, MAILTRAP.IO, PHP, LARAVEL, SUBLIMETEXT3,
+		  VISUAL STUDIO CODE, LARAGON, XAMPP, WAMPSERVER, GOOGLE CLOUD PLATFORM, GITHUB, PHOTOSHOP,
+		  PAINT, FONTAWESOME, OPEN SOURCE INITIATIVE
+	
