@@ -103,6 +103,7 @@ Route::get('publicacion/storage/{archivo}', function ($archivo) {
 
 Route::get('system','Auth\LoginController@showLoginForm');
 Route::post('login', 'Auth\LoginController@login')->name('login');
+Route::get('return', 'Auth\LoginController@return')->name('return');
 
 Route::get('menu','MenuController@index')->name('menu');
 Route::get('submenu','MenuController@submenu')->name('submenu');

@@ -33,6 +33,10 @@ class LoginController extends Controller
         ->withInput(request(['email']));
          
 
+   }
+
+   public function return(){
+       return redirect('/');
    } 
 
    public function logout(){

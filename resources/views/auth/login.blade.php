@@ -4,6 +4,7 @@
    <h3></h3>
 @endsection
 
+
 @section('contenedor')
 @if (session()->has('flash'))
 <div class="alert alert-primary"> {{ session('flash')}}</div>
@@ -40,6 +41,10 @@
           <div class="box-footer">
             <button type="submit" class="btn btn-success"><i class="fa fa-user"></i> Login</button>
             <a href="{{ url('nuevo') }}" class="btn btn-primary pull-leff"><i class="fa fa-user-plus"></i> Registrar nuevo</a>
+          </div>
+
+           <div class="box-footer-2">
+            <a href="{{ url('return') }}" class="btn btn-danger pull-leff"><i class="fa fa-arrow-left"></i> <span>Regresar</span></a>
           </div>
         </form>
       </div>
