@@ -182,7 +182,7 @@
                            <div class="container">
                             <div class="jumbotron">
                               <h1>Acerca del concurso</h1>      
-                              <h4><p>En esta sección encontraras todos los documentos referentes al concurso.</p></h4>
+                              <h4><p>En esta sección encontrarás todos los documentos referentes al concurso.</p></h4>
                               <h5><p>Da click en los botones de descargar, para descargarlos en tu dispositivo.</p></h5>
                             </div>
 
