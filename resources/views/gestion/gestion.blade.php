@@ -48,7 +48,7 @@
                         formato: formato, 
                         descripcion : descripcion
                     });
-                    textarea.value += '\n' + formato + ": " +   descripcion + ".";
+                    textarea.value += formato + ": " +   descripcion + "." + '\n';
                 }
                 else {
                     let item = obtenerItem(id);
@@ -137,16 +137,9 @@
             <input type="text" value={{$datos->id}} name="idpropuesta" hidden>
             <div><strong>Por favor si en caso de Rechazo, identifique porque no paso la revisión</strong></div>
         <textarea id="rechazo" rows="5" cols="100" wrap="soft"  name="rechazo" required>{{$datos->motivorechazo}}</textarea><br>
-            <button type="submit" class="btn btn-danger pull-rigth" onclick="RechazarButton()"><i class="fa fa-save"></i>  Rechazar</button>
+            <button type="submit" class="btn btn-danger pull-rigth"><i class="fa fa-save"></i>  Rechazar</button>
 
         </form> 
        </div>
 
-       <script type="text/javascript">
-           RechazarButton(){
-                 var element = document.getElementById("RechazoDiv");
-                element.classList.remove("AlertRechazoHide");
-                element.classList.add("AlertRechazoShow");
-           }
-       </script>
 @endsection

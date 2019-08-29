@@ -25,7 +25,7 @@ Nuestra Universidad le da la bienvenida a nuestro concurso UCSG Investiga. Se co
 <?php 
 
 	// dd($contenido);
-	$porciones = explode(".", $contenido["motivorechazo"]);
+	$porciones = explode("\n", $contenido["motivorechazo"]);
 	for ($i=0; $i < count($porciones) ; $i++) { 
 		# code...
 		$union[$i] = $porciones[$i];
